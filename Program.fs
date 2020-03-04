@@ -14,6 +14,6 @@ let main argv =
         "import os\n\
         os.system(\"git add .\")\n\
         os.system(\"git commit -m 'commit ran from fsharp ran from python'\")\n\
-        os.system(\"git push'\")"
+        os.system(\"git push\")"
     pyScope.Exec(pyCodeExample)
     0 // return an integer exit code
